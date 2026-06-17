@@ -129,11 +129,12 @@ class WordExporterService
         ->get();
 
         $availableProfColors = [
-            '#FFB3BA', '#FFDFBA', '#FFFFBA', '#BAFFC9', '#BAE1FF',
-            '#F4C2C2', '#FADADD', '#FDFD96', '#C1E1C1', '#AEC6CF',
-            '#FFCBA4', '#FFD1DC', '#C8E6C9', '#D1C4E9', '#B3E5FC',
-            '#FFCC80', '#F8BBD0', '#DCEDC8', '#B2DFDB', '#FFE082',
-            '#E1BEE7', '#C5CAE9', '#BCAAA4', '#FFAB91', '#FFE0B2',
+            '#42A5F5', '#EF5350', '#66BB6A', '#FFA726', '#AB47BC', '#7b6733', '#0d92a3', 
+            '#96294d', '#9E9D24', '#8D6E63', '#5C6BC0', '#26A69A', '#FFCA28', '#FF7043', 
+            '#9CCC65', '#7E57C2', '#78909C', '#D81B60', '#2E8B57', '#DAA520', '#6A5ACD',
+            '#FF6347', '#3d5114', '#D2691E', '#4169E1', '#6b446b', '#FF7F50', '#25755a',
+            '#CD5C5C', '#BDB76B', '#9932CC', '#CD853F', '#00BFFF', '#B22222', '#228B22',
+            '#BC8F8F', '#008B8B', '#DA70D6', '#F4A460', '#708090'
         ];
         $availableDayColors = ['#FFCDD2', '#C8E6C9', '#BBDEFB', '#FFE082', '#E1BEE7', '#B2DFDB'];
 
