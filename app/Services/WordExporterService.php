@@ -259,7 +259,6 @@ class WordExporterService
             }
         }
 
-        // Creer le ZIP
         $zipPath = $this->outputDir . '/PVs_Evaluations.zip';
         $this->zipper($this->pvDir, $zipPath);
 
@@ -331,8 +330,7 @@ class WordExporterService
             'marginRight'  => 400,
         ]);
 
-        //convertir le HTML en contenu Word.
-        // Les options false, false permettent de garder le style inline et d'éviter les sauts de page automatiques.
+
         Html::addHtml($section, $html, false, false);
 
         $path = $fullPath ?? ($this->outputDir . '/' . $filename);
